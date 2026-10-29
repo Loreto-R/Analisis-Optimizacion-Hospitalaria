@@ -84,7 +84,7 @@ En esta fase se entrenan y se comparan los 3 modelos y su AUC (área bajo la cur
 Por sus valores de AUC, se avanza con el modelo XGBoost, que se guarda en un archivo .pkl
 
 
-###FASE 3. Aplicación del programa predictivo con STREAMLIT
+### FASE 3. Aplicación del programa predictivo con STREAMLIT
 
 Con el modelo elegido se desarrolla un programa que predice la estancia de un paciente en el hospital. El script app.py se estructura así:
 
