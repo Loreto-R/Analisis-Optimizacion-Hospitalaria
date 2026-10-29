@@ -76,15 +76,10 @@ En esta fase se entrenan y se comparan los 3 modelos y su AUC (área bajo la cur
 ### Tabla comparativa de resultados (métrica AUC)
 
 | Modelo | Datos utilizados | Nivel de acierto general (AUC Macro) | Nivel de acierto ponderado (AUC Weighted) | ¿Cómo rinde? |
-
 | --- | --- | --- | --- | --- |
-
-| \*\*XGBoost\*\* 🥇 | Datos completos (transformados a formato numérico) | \*\*82,2 %\*\* (0.822) | \*\*80,3 %\*\* (0.803) | \*\*El mejor de los tres\*\* |
-
-| \*\*Random Forest\*\* 🥈 | Datos completos | \*\*79,9 %\*\* (0.799) | \*\*78,3 %\*\* (0.783) | \*\*Muy buen rendimiento\*\* |
-
-| \*\*Regresión Logística\*\* 🥉 | Datos con limpieza adicional | \*\*66,0 %\*\* (0.660) | \*\*65,6 %\*\* (0.656) | \*\*Menor rendimiento\*\* |
-
+| **XGBoost** 🥇 | Datos completos (transformados a formato numérico) | **82,2 %** (0.822) | **80,3 %** (0.803) | **El mejor de los tres** |
+| **Random Forest** 🥈 | Datos completos | **79,9 %** (0.799) | **78,3 %** (0.783) | **Muy buen rendimiento** |
+| **Regresión Logística** 🥉 | Datos con limpieza adicional | **66,0 %** (0.660) | **65,6 %** (0.656) | **Menor rendimiento** |
 
 Por sus valores de AUC, se avanza con el modelo XGBoost, que se guarda en un archivo .pkl
 
